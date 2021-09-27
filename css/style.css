@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: #344563;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 12px;
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 12px 12px 24px;
+}
+
+.logo a {
+  color: #6070ff;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.banner {
+  background-image: url("../images/mobileBanner.png");
+  background-color: #fff;
+  background-repeat: no-repeat;
+  padding: 110px 24px 116px 24px;
+  border-bottom-left-radius: 80px;
+}
+
+.banner .banner-text h1 {
+  color: #172b4d;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 52px;
+}
+
+.contact-section form p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 58px;
+}
+
+.p {
+  color: #344563;
+  font-size: 16px;
+  line-height: 44px;
+  margin-top: 12px;
+}
+
+.social-connect h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  padding: 12px 12px 12px 12px;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.social-links li {
+  margin-left: 10px;
+}
+
+.works {
+  margin-top: 114px;
+  padding: 0 24px;
+}
+
+.work-item {
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  padding: 16px 16px 28px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-img img {
+  max-width: 100%;
+  margin: auto;
+}
+
+.works .work-items {
+  list-style: none;
+  display: -ms-grid;
+  display: grid;
+  row-gap: 88px;
+}
+
+.works .work-items .work-item {
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #dfe1e6;
+  padding: 16px 16px 28px 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-info h2 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+.work-info-details {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.company-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.work-info-details-name {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+  float: left;
+  display: flex;
+}
+
+.project-description {
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 20px;
+  margin-bottom: 12px;
+}
+
+.project-technologies {
+  display: flex;
+  margin-bottom: 24px;
+  list-style: none;
+}
+
+.project-technologies li {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  padding: 4px 12px;
+  color: #6070ff;
+  background-color: #ebebff;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+
+.see-project {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  color: #396df2;
+  padding: 12px;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+}
+
+.about {
+  margin-top: 114px;
+  background-color: #fff;
+  border-top-right-radius: 80px;
+  padding: 114px 24px;
+}
+
+.about-info .social-connect h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.social-links .li {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+}
+
+.about .about-info .social-connect .social-links a {
+  text-decoration: none;
+}
+
+.get-resume {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  display: inline-block;
+  color: #396df2;
+  padding: 12px;
+  border: 1px solid #396df2;
+  border-radius: 8px;
+  margin-top: 22px;
+}
+
+.about .about-skills {
+  margin-top: 48px;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 24px;
+}
+
+.skill {
+  border-bottom: 1px solid #dfe1e6;
+  padding: 0 12px 13px 12px;
+}
+
+.skill-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 28px;
+}
+
+.name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
+
+.inner-skills li {
+  background-color: #f7f7f9;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 9px 16px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.inner-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 36px;
+}
+
+.contact-section {
+  background-color: #fff;
+}
+
+.contact-section form {
+  background-color: #6070ff;
+  background-image: url("../images/contact-form-mobile-shapes.png");
+  background-repeat: no-repeat;
+  border-top-left-radius: 80px;
+  padding: 104px 24px 45px 24px;
+  background-position: 157px 21px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-section form h2 {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+  background-color: #fff;
+  padding: 15px 38px 15px 16px;
+  color: #172b4d;
+  font-size: 17px;
+  line-height: 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.contact-section form input[type='email'] {
+  margin-top: 20px;
+}
+
+.contact-section form textarea {
+  height: 170px;
+  display: block;
+  margin-top: 18px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-section form button {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+  color: #6070ff;
+  border: none;
+  outline: none;
+  padding: 12px;
+  border-radius: 8px;
+  margin-top: 22px;
+  cursor: pointer;
+  width: 140px;
+}
